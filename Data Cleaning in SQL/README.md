@@ -6,4 +6,4 @@ This data analysis project aims to clean and enhance a raw dataset to make it mo
 
 ### Data Sources
 
-Nashville Housing Data: The primary dataset used for this analysis is the "Housing Data for Data Cleaning.xlsx" 
+Nashville Housing Data: The primary dataset used for this analysis is the "Housing Data for Data Cleaning.xlsx" file, which contains information on housing data in Nashville. The Excel file is provided in the folder for the project, or can be downloaded here: 
