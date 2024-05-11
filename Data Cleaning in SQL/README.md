@@ -35,7 +35,7 @@ PARSENAME(REPLACE(OwnerAddress, ',', '.'), 2),
 PARSENAME(REPLACE(OwnerAddress, ',', '.'), 1)
 FROM Project_Portfolio.dbo.Housing_Data
 ```
-Note that the substring method for the property address didn't include the state, otherwise, it would've been even more complex than it already is. The second method split the owner address into the state, city, and address respectively, using the commas as delimiters.
+Note that the substring method for the property address didn't include the state, otherwise, it would've been even more complex than it already is. The second method split the owner address into the address, city, and state respectively, using the commas as delimiters.
 
 
 
