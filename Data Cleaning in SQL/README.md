@@ -18,7 +18,7 @@ For data cleaning, the following tasks were performed:
 
 ### Findings
 
-After the breaking out the property addresses into their separate columns for address and city using the substring method, it was discovered that using PARSENAME was a much more efficient, and garnered the same results.
+After the breaking out the property addresses into their separate columns for address and city using the substring method, it became clear that another method was much more efficient, and garnered the same results. The following code is what was used for the substring method, and was slightly more complicated:
 
 ```sql
 SELECT 
@@ -26,6 +26,16 @@ SUBSTRING(PropertyAddress, 1, CHARINDEX(',', PropertyAddress) -1) AS Address,
 SUBSTRING(PropertyAddress, CHARINDEX(',', PropertyAddress) +1, LEN(PropertyAddress)) AS Address
 FROM Project_Portfolio.dbo.Housing_Data
 ```
+Then using the optimal method:
+
+```sql
+SELECT
+PARSENAME(REPLACE(OwnerAddress, ',', '.'), 3),
+PARSENAME(REPLACE(OwnerAddress, ',', '.'), 2),
+PARSENAME(REPLACE(OwnerAddress, ',', '.'), 1)
+FROM Project_Portfolio.dbo.Housing_Data
+```
+Note that the substring method for the property address didn't include the state, otherwise, it would've been even more complex than it already is. The second method split the owner address into the state, city, and address respectively.
 
 
 
