@@ -11,5 +11,9 @@ Nashville Housing Data: The primary dataset used for this analysis is the "Housi
 ### Data Cleaning
 
 For data cleaning, the following tasks were performed:
-1.
+1. Fill in null values for property or owner addresses. Since the property and owner addresses were always the same, it was simply a matter of filling one in for the other that was missing.
+2. Break out the owner and property addresses both into individual columns including address, city, and state for each. This makes each record cleaner, and easier to filter.
+3. Remove the duplicate entries. Entries that contained the same parcel ID, property address, sale price, sale date, and legal reference were considered the same, and multiples of these entries were removed.
+4. Fields that were not needed anymore were removed for clarity.
+
 
