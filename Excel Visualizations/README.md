@@ -16,7 +16,11 @@ For data cleaning, the following tasks were performed:
 2. Use find and replace for marital status and gender, to spell out the whole words rather than a single letter abbreviation.
 3. Create a new age bracket column that uses a nested if-statement to separate the ages into three groups: adolescent, middle age, and old. This becomes useful for visualization purposes.
 
-### Findings
+Age Bracket column:
+
+```excel
+=IF(L2>54,"Old",IF(L2>30,"Middle Age","Adolescent"))
+```
 
 
 
