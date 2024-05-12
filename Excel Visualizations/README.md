@@ -22,6 +22,16 @@ Age Bracket column:
 =IF(L2>54,"Old",IF(L2>30,"Middle Age","Adolescent"))
 ```
 
+### Pivot Tables
+
+Prior to creating the dashboard, it was essential to generate pivot tables to visualize the data. Three pivot tables were created, all utilizing column values indicating whether a bike was purchased (yes or no). The main distinction among the pivot tables lay in their row values. The first pivot table included gender as row values, along with a column displaying the average income by gender. The second pivot table featured row values representing the distance traveled per commute, while the third table's rows represented customer age brackets derived from a previously created column. All three of these pivot tables were vital for the creation of the dashboard.
+
+### Dashboard
+
+The process of creating the Excel dashboard involved taking the previously generated pivot tables, incorporating slicers, and performing extensive formatting and alignment. Initially, it was necessary to remove grid lines to achieve a clean background and merge headers to create uniform titles. From there, the pivot tables were copied and pasted onto a new worksheet and aligned under the header using the alignment feature. Finally, slicers were added from the pivot tables for marital status, region, and education. These slicers enable users to filter the data by clicking on one or multiple buttons, applying the specified parameter to all pivot tables within the dashboard.
+
+
+
 
 
 
