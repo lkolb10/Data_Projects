@@ -30,7 +30,7 @@ Prior to creating the dashboard, it was essential to generate pivot tables to vi
 
 The process of creating the Excel dashboard involved taking the previously generated pivot tables, incorporating slicers, and performing extensive formatting and alignment. Initially, it was necessary to remove grid lines to achieve a clean background and merge headers to create uniform titles. From there, the pivot tables were copied and pasted onto a new worksheet and aligned under the header using the alignment feature. Finally, slicers were added from the pivot tables for marital status, region, and education. These slicers enable users to filter the data by clicking on one or multiple buttons, applying the specified parameter to all pivot tables within the dashboard.
 
-
+![Screenshot (2)](https://github.com/lkolb10/Data_Projects/assets/136652895/6f82a292-60df-4f40-aef1-e514c2e84e00)
 
 
 
