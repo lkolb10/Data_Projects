@@ -6,7 +6,7 @@ This data analysis project focuses on cleaning a sample dataset on bike sales an
 
 ### Data Sources
 
-Bike Sales Data: The primary dataset used for this analysis is the "Bike Sales.xlsx" file, which contains demographic data for customers and whether or not they purchased a bike. The Excel file is provided in the folder for the project, or can be downloaded [here](Excel Visualizations/Bike Sales.xlsx).
+Bike Sales Data: The primary dataset used for this analysis is the "Bike Sales.xlsx" file, which contains demographic data for customers and whether or not they purchased a bike. The Excel file is provided in the folder for the project, or can be viewed [here]().
 
 ### Data Cleaning Process
 
