@@ -34,7 +34,7 @@ The process of creating the Excel dashboard involved taking the previously gener
 
 ### Findings
 
-Upon reviewing the dashboard, even without applying any slicers, several insights emerge. Firstly, across both genders, individuals who purchased a bike tended to have higher incomes compared to their counterparts who did not. Additionally, a notable spike was observed in bike purchases among individuals within the middle age group bracket, whereas younger and older individuals were less inclined to make a purchase. Furthermore, the line graph illustrates a clear trend: individuals with shorter commutes were more likely to have purchased a bike, whereas those with longer commutes were less likely to have done so.
+Upon reviewing the dashboard, even without applying any slicers, several insights emerge. Firstly, across both genders, individuals who purchased a bike tended to have higher incomes compared to their counterparts who did not. Additionally, a notable spike was observed in bike purchases among individuals within the middle age group bracket, whereas younger and older individuals were less inclined to make a purchase. Furthermore, the last graph illustrates a clear trend: individuals with shorter commutes were more likely to have purchased a bike, whereas those with longer commutes were less likely to have done so.
 
 ![Screenshot (5)](https://github.com/lkolb10/Data_Projects/assets/136652895/4b1651e7-b0f6-4481-993c-746573c73774)
 
