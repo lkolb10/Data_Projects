@@ -10,7 +10,11 @@ Bike Sales Data: The primary dataset used for this analysis is the "Bike Sales.x
 
 ### Data Cleaning Process
 
+For data cleaning, the following tasks were performed:
 
+1. Check for duplicate values using conditional formatting, and then remove them in the data tab.
+2. Use find and replace for marital status and gender, to spell out the whole words rather than a single letter abbreviation.
+3. Create a new age bracket column that uses a nested if-statement to separate the ages into three groups: adolescent, middle age, and old. This becomes useful for visualization purposes.
 
 ### Findings
 
